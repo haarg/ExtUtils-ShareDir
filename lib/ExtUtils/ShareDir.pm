@@ -7,7 +7,6 @@ $VERSION = eval $VERSION;
 
 use ExtUtils::MakeMaker ();
 use File::Find ();
-my $CAN_DECODE = eval { require ExtUtils::MakeMaker::Locale; };
 
 our @ISA = ();
 
